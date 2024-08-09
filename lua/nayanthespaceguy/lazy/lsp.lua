@@ -39,7 +39,6 @@ return {
 				"dockerls",
 				"docker_compose_language_service",
 				"eslint",
-				"golangci_lint_ls",
 				"gopls",
 				"grammarly",
 				"html",

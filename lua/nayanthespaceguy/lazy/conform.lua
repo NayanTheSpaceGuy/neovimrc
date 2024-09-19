@@ -5,6 +5,7 @@ return {
 		config = function()
 			require("conform").setup({
 				formatters_by_ft = {
+					rust = { "rustfmt" },
 					lua = { "stylua" },
 					-- Use a sub-list to run only the first available formatter
 					javascript = { { "prettierd", "prettier" } },

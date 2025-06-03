@@ -7,6 +7,7 @@ return {
 				formatters_by_ft = {
 					rust = { "rustfmt" },
 					lua = { "stylua" },
+					toml = { "taplo" },
 					-- Use a sub-list to run only the first available formatter
 					javascript = { { "prettierd", "prettier" } },
 				},

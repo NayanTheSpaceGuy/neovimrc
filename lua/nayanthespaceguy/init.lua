@@ -19,7 +19,10 @@ vim.filetype.add({
 	},
 })
 
-vim.cmd("autocmd BufRead,BufNewFile *.necronux set filetype=pkl")
+vim.cmd("autocmd BufRead,BufNewFile necronux.grimoire set filetype=pkl")
+vim.cmd("autocmd BufRead,BufNewFile necronux.staff set filetype=pkl")
+vim.cmd("autocmd BufRead,BufNewFile *.chapter set filetype=pkl")
+vim.cmd("autocmd BufRead,BufNewFile *.sigil set filetype=pkl")
 
 autocmd("TextYankPost", {
 	group = yank_group,
